@@ -1,0 +1,21 @@
+body {
+    margin: auto;
+    width: 30em;
+    text-align: center;
+    background-color: lavender;
+}
+
+h1 {
+    margin-bottom: 3em;
+}
+
+
+h4:hover {
+background-color: blueviolet;
+color: white;
+font-size: 130%;
+}
+
+#axe-x, #axe-y {
+    font-size: 0.8em;
+}

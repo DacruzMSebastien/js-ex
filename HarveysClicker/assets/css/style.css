@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Abbey Dawn";
+    src: url('fonts/Abbey Dawn.ttf');
+}
+
+h1, h2, input[type=button]  {
+    font-family: 'Abbey Dawn';
+    text-shadow: 2px 2px black;   
+    color: lightseagreen;
+}
+
+body {
+    /* background-image: url(bg-harveys.jpeg);
+    background-repeat:no-repeat;
+    background-position: right bottom; */
+   /* font-family:  'Times New Roman', Times, serif; */
+}
+
+h1 {
+    font-size: 7vh;
+}
+
+h2 {
+    font-size: 4vh;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+
+
+.intro {
+    font-style: italic;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.beer {
+    float: left;
+    width: 50%;
+    text-align: center; 
+    /* border: 1px solid black;   */
+}
+
+
+.shop {
+    width: 30%;
+    margin-left: 50%;
+    margin-top: 5vh;
+    text-align: center; 
+    /* border: 1px solid black;    */
+}
+
+
+.rules {
+    margin-bottom: 5vh;
+}
+
+.cost {
+    font-size: 1.5vh;
+    font-weight: bold;
+}
+
+#multiplier, #autoclicker, #bonus {
+    margin-bottom: 3vh;
+}
+
+
+#affichage {
+    padding: 5vh;
+    font-size: 3vh;
+}
+
+input[type=button]{
+    background-color: lightseagreen;
+    color: white;
+    padding: 1.5vh;
+    font-size: 2.5vh;
+    text-shadow: 0.1em 0.1em black;
+    
+}
+
+
+  input[type=button]:hover{
+        background-color:  #14716c;
+    } 
